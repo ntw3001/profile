@@ -22,15 +22,15 @@ body {
   text-align: center;
   /* margin: auto; */
 }
-.img-round{
-  border-radius: 50%;
+.img-top{
+  border-radius: 50% 50% 15% 15%;
 }
 .card-top {
   margin: 15px;
   padding: 5px;
   width: 400px;
   color: rgb(181, 210, 230);
-  background-color:rgb(115, 163, 185);
+  background-color:rgb(104, 148, 168);
   border: 2px solid rgb(209, 146, 146);
   border-radius: 200px 200px 10px 10px;
   box-shadow: 2px 2px rgb(116, 25, 25, 0.2)
@@ -40,7 +40,7 @@ body {
   padding: 5px;
   width: 400px;
   color: rgb(181, 210, 230);
-  background-color:rgb(115, 163, 185);
+  background-color:rgb(104, 148, 168);
   border: 2px solid rgb(209, 146, 146);
   border-radius: 10px;
   box-shadow: 2px 2px rgb(116, 25, 25, 0.2)
@@ -50,7 +50,7 @@ body {
   padding: 5px;
   width: 400px;
   color: rgb(181, 210, 230);
-  background-color:rgb(115, 163, 185);
+  background-color:rgb(104, 148, 168);
   border: 2px solid rgb(209, 146, 146);
   border-radius: 10px 10px 200px 200px;
   box-shadow: 2px 2px rgb(116, 25, 25, 0.2)
