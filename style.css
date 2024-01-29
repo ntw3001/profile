@@ -1,0 +1,90 @@
+h1{  font-family: 'Cabin:wght@700', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+}
+h2{  font-family: 'Cabin:wght@400', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+body {
+  color: blanchedalmond;
+  background-color: slategrey;
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.container{
+  width: 400px;
+  margin: 0 auto;
+}
+.text-centre{
+  text-align: center;
+  /* margin: auto; */
+}
+.img-round{
+  border-radius: 50%;
+}
+.card-top {
+  margin: 15px;
+  padding: 5px;
+  width: 400px;
+  color: rgb(181, 210, 230);
+  background-color:rgb(115, 163, 185);
+  border: 2px solid rgb(209, 146, 146);
+  border-radius: 200px 200px 10px 10px;
+  box-shadow: 2px 2px rgb(116, 25, 25, 0.2)
+}
+.card-mid {
+  margin: 15px;
+  padding: 5px;
+  width: 400px;
+  color: rgb(181, 210, 230);
+  background-color:rgb(115, 163, 185);
+  border: 2px solid rgb(209, 146, 146);
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(116, 25, 25, 0.2)
+}
+.card-bottom {
+  margin: 15px;
+  padding: 5px;
+  width: 400px;
+  color: rgb(181, 210, 230);
+  background-color:rgb(115, 163, 185);
+  border: 2px solid rgb(209, 146, 146);
+  border-radius: 10px 10px 200px 200px;
+  box-shadow: 2px 2px rgb(116, 25, 25, 0.2)
+}
+.list-inline{
+  font-size: 35px;
+  vertical-align: middle;
+  list-style: none;
+  text-align: center;
+  padding-left: 0px;
+}
+.button-style{
+  width: 100px;
+  color: rgb(16, 40, 56);
+  background-color:rgb(143, 161, 170);
+  border: 2px solid rgb(209, 146, 146);
+  border-radius: 5px;
+  box-shadow: 4px 4px rgb(116, 25, 25, 0.2);
+  margin: 5px;
+  padding: 5px;
+}
+@media(max-width: 960px){
+  .container{width: 700px;
+  }
+}
+@media(max-width: 720px){
+  .container{width: 500px;
+  }
+}
+@media(max-width: 540px){
+  .container{width: 300px;
+  }
+}
+@media(max-width: 200px){
+  .container{width: 150px;
+  }
+}
